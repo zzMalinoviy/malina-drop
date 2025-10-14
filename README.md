@@ -1,5 +1,3 @@
-# Malina-Drop-
-Telegram Mini App with case, shop and more!
 # 🍇 Malina Drop
 
 **Malina Drop** — Telegram Mini App с кейсами, магазином, инвентарём, промокодами и неоновой анимацией.
@@ -25,7 +23,7 @@ Telegram Mini App with case, shop and more!
 ## 🛠️ Установка
 
 ```bash
-git clone https://github.com/yourusername/malina-drop.git
+git clone https://github.com/zzMalinoviy/malina-drop.git
 cd malina-drop
 pip install -r requirements.txt
 cp .env.example .env
