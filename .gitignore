@@ -1,1 +1,7 @@
-
+__pycache__/
+*.pyc
+.env
+malina.db
+*.log
+node_modules/
+static/assets/*.gif
