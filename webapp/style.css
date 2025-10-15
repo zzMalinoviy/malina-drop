@@ -43,4 +43,19 @@ button:hover {
 input {
   padding: 10px;
   border-radius: 5px;
-  border:
+  border: none;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.drop-animation {
+  width: 300px;
+  display: block;
+  margin: 20px auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
