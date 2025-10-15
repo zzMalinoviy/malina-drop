@@ -1,1 +1,6 @@
-
+flask
+flask-cors
+aiogram
+sqlalchemy
+python-dotenv
+gunicorn
