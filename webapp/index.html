@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malina Drop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Malina Drop</h1>
+    <div id="balance">Баланс: 1000 💰</div>
 
+    <section class="cases">
+      <h2>Кейсы</h2>
+      <div class="case-list">
+        <div class="case">
+          <h3>Малиновый кейс</h3>
+          <button onclick="openCase()">Открыть за 100 💸</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop">
+      <h2>Магазин</h2>
+      <div class="item-list">
+        <div class="item">
+          <span>🎧 Неоновые наушники — 300 💰</span>
+          <button onclick="buyItem()">Купить</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <h2>Промокод</h2>
+      <input type="text" id="promoInput" placeholder="Введите промокод" />
+      <button onclick="applyPromo()">Активировать</button>
+    </section>
+
+    <section class="inventory">
+      <h2>Инвентарь</h2>
+      <ul id="inventory-list">
+        <li>— Пусто —</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+  </html>
